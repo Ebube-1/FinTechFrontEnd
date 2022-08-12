@@ -24,7 +24,7 @@ const LocalTransferPage = () => {
 
   const handleChange = (e) => {
     const value = e.target.value;
-    setUser({ ...user, [e.target.name]: value });
+    setUser({ ...user, [e.target.name]: value});
   };
 
   async function resolveAcc(accountNum) {
